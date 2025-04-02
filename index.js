@@ -10,7 +10,7 @@ const PORT = 3000;
 
 // Serve a simple HTML page (optional)
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
+    res.send("Hello");
 });
 
 // Socket.IO connection handler
